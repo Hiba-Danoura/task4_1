@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+<script>
+
+    
+var numbers = [];
+for (var index = 0; index < 10; index++) {
+    numbers[index] = Math.floor(Math.random()*9);
+}
+
+console.log(numbers)
+
+var sum = 0;
+
+numbers.forEach(
+    element => 
+    {if
+        (element % 2 == 0){sum += element;}
+    });
+
+console.log(sum);
+
+
+
+<!-- part tow-->
+var personal_information = {
+    name: "Hiba",
+    number: "0932176097",
+    age: "26",
+    email: "hiiba77dn@gmail.com"
+};
+
+document.writeln(personal_information);
+document.writeln(personal_information.name);
+document.writeln(personal_information.number);
+document.writeln( personal_information.age);
+document.writeln( personal_information.email);
+
+console.log(personal_information);
+console.log(personal_information.name);
+console.log(personal_information.number);
+console.log(personal_information.age);
+console.log(personal_information.email);
+</script>
+</body>
+</html>
+
